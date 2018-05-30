@@ -1,0 +1,142 @@
+{
+	"info": {
+		"name": "SmartCloud",
+		"_postman_id": "06aadc4b-7eaf-420f-b6ec-92712e4d9588",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"description": "",
+			"item": [
+				{
+					"name": "Login",
+					"description": "",
+					"item": [
+						{
+							"name": "Login.zhouzx",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {},
+								"url": {
+									"raw": "https://www.futuresmart.top/index.php/user/login/login?username=zhouzx&password=zhouzx",
+									"protocol": "https",
+									"host": [
+										"www",
+										"futuresmart",
+										"top"
+									],
+									"path": [
+										"index.php",
+										"user",
+										"login",
+										"login"
+									],
+									"query": [
+										{
+											"key": "username",
+											"value": "zhouzx",
+											"equals": true
+										},
+										{
+											"key": "password",
+											"value": "zhouzx",
+											"equals": true
+										}
+									]
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "Logout.zhouzx",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {},
+								"url": {
+									"raw": "https://www.futuresmart.top/index.php/user/login/logout?username=zhouzx",
+									"protocol": "https",
+									"host": [
+										"www",
+										"futuresmart",
+										"top"
+									],
+									"path": [
+										"index.php",
+										"user",
+										"login",
+										"logout"
+									],
+									"query": [
+										{
+											"key": "username",
+											"value": "zhouzx",
+											"equals": true
+										},
+										{
+											"key": "password",
+											"value": "zhouzx",
+											"equals": true,
+											"disabled": true
+										}
+									]
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Register",
+					"description": "",
+					"item": [
+						{
+							"name": "register.postman",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {},
+								"url": {
+									"raw": "https://www.futuresmart.top/index.php/user/register/register?username=postman&password=postman",
+									"protocol": "https",
+									"host": [
+										"www",
+										"futuresmart",
+										"top"
+									],
+									"path": [
+										"index.php",
+										"user",
+										"register",
+										"register"
+									],
+									"query": [
+										{
+											"key": "username",
+											"value": "postman",
+											"equals": true
+										},
+										{
+											"key": "password",
+											"value": "postman",
+											"equals": true
+										}
+									]
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		}
+	]
+}
